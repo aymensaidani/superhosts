@@ -45,6 +45,7 @@ const Activites = () => {
       {/* Text outside the product cards */}
       <div className="best-seller-text">Activités</div>
 
+
       {/* Navigation buttons */}
       <div className={`navigation-buttons ${animate ? 'animate' : ''}`}>
         <button className="discover-button" onClick={handlePrevPage} disabled={currentPage === 1}>
