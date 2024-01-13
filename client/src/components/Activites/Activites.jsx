@@ -1,6 +1,6 @@
+import './style.css';
 import { useState } from 'react';
 import {  FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import './style.css';
 import img1 from '../../assets/act1.png';
 import img2 from '../../assets/act2.png';
 import img3 from '../../assets/act3.png';
