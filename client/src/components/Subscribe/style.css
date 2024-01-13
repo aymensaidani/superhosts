@@ -1,0 +1,123 @@
+.subscribe-image {
+  width: 100%;
+  height: auto;
+}
+
+.subscribtitle {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 33px;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  width: 80%;
+  max-width: 736px;
+  height: 30%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 10px;
+    width: 95%;
+    .inptt {
+      /* left: 22px; */
+      padding: 10px;
+      text-align: left;
+      width: 180px;
+      /* width: 344px; */
+      border-radius: 15px;
+      height: 32px;
+  }
+  }
+
+  @media (max-width: 834px) {
+    font-size: 21px;
+    width: 95%;
+  }
+
+  @media (max-width: 428px) {
+    font-size: 13px;
+    width: 95%;
+  }
+}
+
+/* .subscribe-form {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  width: 80%;
+  max-width: 736px;
+  height: 40%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 10px;
+    width: 95%;
+  }
+
+  @media (max-width: 834px) {
+    font-size: 21px;
+    width: 95%;
+  }
+
+  @media (max-width: 428px) {
+    top: 50%;
+    font-size: 13px;
+    height: 20%;
+  }
+} */
+.subscribe-form{
+  position: absolute;
+  left: 582px;
+  top: 335px;
+  @media (max-width: 480px) {
+  left: 167px;
+  top: 113px;
+  }
+}
+
+.subtn {
+  width: 136px;
+    position: absolute;
+    background-color: #FF5E55;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    left: 816px;
+    top: 348px;
+}
+
+.inptt {
+  padding: 20px;
+    text-align: left;
+    width: 383px;
+    border-radius: 15px;
+    height: 66px;
+    @media (max-width: 480px) {
+      
+     
+        padding: 10px;
+        text-align: left;
+        width: 180px;
+        border-radius: 15px;
+        height: 32px;
+    
+    }
+}
+
+/* Add any additional styling as needed */
